@@ -1,0 +1,625 @@
+<html>
+    <head>
+        <title>Make MY Trip - #1 Travel Website.</title>
+        <link href="https://i.ibb.co/ZBK1FsL/MMT-Logo.png" alt="MMT-Logo" rel="icon"> 
+        <script src="mmt.js" type="text/javascript"></script>
+        <link href="mmthome.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+    </head>
+
+    <body id="body1">
+      <div id="main">
+
+              <div class="ScreenHeader">
+              
+                  <div id="logo" class="header">
+                    <img src="https://i.ibb.co/9VPNPs3/mmt-Logo-White.png" alt="mmt-Logo-White">
+                  </div>
+
+                  <div id="WelcomeOffers" class="header">
+                      <a href="#" id="p1">Welcome Offer!</a>
+                      <p id="p2">Upto to 20% Off* of on Flight,Hotel & More</p>
+                  </div>
+                  
+                  <div id="BusinessAccount" class="header">
+                      <a href="#" id="p1">Introducing myBiz</a>
+                      <p id="p2">Business Travel Solution</p>
+                  </div>
+
+                  <div id="MyTrips" class="header">
+                      <a href="#" id="p1">My Trips</a>
+                      <p id="p2">Manage your bookings</p>
+                  </div>
+
+                  <div id="Profile" class="header">
+                      <p id="p1">Hi Traveller</p>
+                  </div>
+
+                  <div id="Language" class="header">
+                  <select>
+                          <option>--Select your language--</option>
+                  </select>
+                  </div>
+              </div>
+
+              
+
+              <div class="search">
+                        <div id="BookingType">
+                          <div id="Flights" class="btype">
+                            <a href="#">
+                              <figure>
+                                  <img src="https://i.ibb.co/W587X2C/flight-icon.jpg" alt="Flights" id="flightimg">
+                                  <figcaption>Flights</figcaption>
+                              </figure>
+                            </a>
+                          </div>
+
+                          <div id="Hotels" class="btype">
+                            <a href="#">
+                              <figure>
+                                  <img src="https://i.ibb.co/tMChptZ/hotel-icon.png" alt="Hotels" id="hotelimg">
+                                  <figcaption>Hotels</figcaption>
+                              </figure>
+                            </a>
+                          </div>
+
+                          <div id="Homestays" class="btype">
+                            <a href="#">
+                              <figure>
+                                  <img src="https://i.ibb.co/JBFcddV/homestay-icon.png" alt="Homestays" id="homestayimg">
+                                  <figcaption>Homestays</figcaption>
+                              </figure>
+                            </a>
+                          </div>
+
+                          <div id="HolidayPackages" class="btype">
+                              <a href="#">
+                                <figure>
+                                    <img src="https://i.ibb.co/61sYp5V/holiday-package-logo.jpg" alt="Holiday Packages" id="holidaypackageimg">
+                                    <figcaption>HolidayPackages</figcaption>
+                                </figure>
+                              </a>
+                            </div>
+
+                            <div id="Trains" class="btype">
+                              <a href="#">
+                                <figure>
+                                    <img src="https://i.ibb.co/ng1btj8/train-logo.png" alt="Trains" id="trainimg">
+                                    <figcaption>Trains</figcaption>
+                                </figure>
+                              </a>
+                            </div>
+    
+                            <div id="Buses" class="btype">
+                              <a href="#">
+                                <figure>
+                                    <img src="https://i.ibb.co/cJXHQr8/bus-logo.png" alt="Buses" id="busimg">
+                                    <figcaption>Buses</figcaption>
+                                </figure>
+                              </a>
+                            </div>
+    
+                            <div id="Cabs" class="btype">
+                                <a href="#">
+                                  <figure>
+                                      <img src="https://i.ibb.co/3TGPP4L/cab-logo.png" alt="Cabs" id="cabimg">
+                                      <figcaption>Cabs</figcaption>
+                                  </figure>
+                                </a>
+                              </div>
+
+                      </div>
+
+                      <div id="BookingDetails">
+                          <div id="BD1">
+                                  <input type="radio" name="TicketType" id="TicketType" value="One Way">One Way
+                                  <input type="radio" name="TicketType" id="TicketType" value="Round Trip">Round Trip
+                                  <input type="radio" name="TicketType" id="TicketType" value="Multi City">Multi City
+                          </div>
+
+                          <div id="BD2">
+                                  <p>Book International and Domestic Flights</p>
+                          </div>
+
+                          <div id="From">
+                              <p>From</p>
+                          </div>
+
+                          <div id="To">
+                              <p>To</p>
+                          </div>
+                          
+                          <div id="Departure">
+                              <p>Departure</p>
+                          </div>
+
+                          <div id="Return">
+                              <p>Return</p>
+                          </div>
+
+                          <div id="TravellersClass">
+                              <p>Travellers & Class</p>
+                          </div>
+
+                          <div id="FareType">
+                              <p >Select A Fare Type</p>
+                              <input type="radio" name="FareType" id="FareType" value="Regular">Regular
+                              <input type="radio" name="FareType" id="FareType" value="Armed Forces">Armed Forces
+                              <input type="radio" name="FareType" id="FareType" value="Student">Student
+                              <input type="radio" name="FareType" id="FareType" value="Senior Citizens">Senior Citizens
+                              <input type="radio" name="FareType" id="FareType" value="Doctors & Nurses">Doctors & Nurses
+                              <input type="radio" name="FareType" id="FareType" value="Double Seat">Double Seat
+                          </div>
+                      </div>
+                    </div>
+
+                    <div id="SearchButton">
+                      <button type="button">SEARCH</button>
+                    </div>
+          
+              <div id="locationinfo">
+                <button id="getlocation" onclick="geolocation()"><img src="https://i.ibb.co/hsyn5Gm/locat.png"></button>
+                <p id="out"></p>
+                <p id="location"></p>
+                <p id="temp"></p>
+                <script>
+                    let x=document.getElementById('out');
+                    let y=document.getElementById('location');
+                    let z=document.getElementById('temp');
+                    function geolocation()
+                    { 
+                        if(navigator.geolocation)
+                      {
+                          navigator.geolocation.getCurrentPosition(showPosition);
+                      }
+                      else
+                      {
+                        x.innerText="Geo not supported";
+                       // new comment line
+                      }
+
+                    }
+
+                    function showPosition(data)
+                    {
+                      console.log(data);
+                      let lat=data.coords.latitude;
+                      let lon=data.coords.longitude;
+                     // x.innerText= `Latitude is ${lat} and Longitude is ${lon}`;
+                      const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`;
+                      fetch(url,{method:'GET'})
+                      .then((res)=>res.json())
+                      .then((data) => {
+                        console.log(data);
+                        let cityName = data.city.name;
+                        let temp = data.list[0].temp.day+" °C";
+                        y.innerText = `${cityName}`;
+                        z.innerText = `${temp}`;
+                    })
+                    }
+                    
+                </script>
+              </div>
+      
+            
+
+              <div id="offers">
+
+                <div class="modetoggle" onClick="ChangeMode()">
+                  <div id="moon" class="moon"></div>
+                </div>
+
+                <div id="headings">
+                      <p> Offers</p>
+                </div>
+
+                <div id="posters">
+                    
+                    <div class="tilecontainer">
+                      
+                        <div class="tilecomponent1">
+                            <img src="https://i.ibb.co/K6qNhvf/Welcome-Offer1.png">
+                        </div>
+
+                        <div class="tilecomponent2">
+                            <p>For Your 1st Hotel Booking!</p>
+
+                            <div class="subheading">
+                                <p>Up to 25% OFF</p>
+                            </div>
+                        </div>
+
+                        <div class="tilecomponent3">
+                              <div class="part1">
+                                <span>T&C's Apply &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              </div>
+
+                              <div class="part2">
+                                <span>Code:WELCOMEMMT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              </div>
+
+                              <div class="part3">
+                                <a href="#">VIEW DETAILS</a>
+                              </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="tilecontainer">
+                          <div class="tilecomponent1">
+                            <img src="https://i.ibb.co/XkY8VhF/Welcome-Train-offer.png">
+                          </div>
+
+                      <div class="tilecomponent2">
+                          <p>For Your 1st Train Booking!</p>
+
+                          <div class="subheading">
+                              <p>Zero Convenience Fee</p>
+                          </div>
+
+                      </div>
+
+                      <div class="tilecomponent3">
+                            <div class="part1">
+                              <span >T&C's Apply &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            </div>
+
+                            <div class="part2">
+                              <span>Code:WELCOMEMMT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            </div>
+
+                            <div class="part3">
+                              <a href="#">VIEW DETAILS</a>
+                            </div>
+                      </div>
+                  </div>
+
+                    <div class="tilecontainer">
+                            <div class="tilecomponent1">
+                                <img src="https://i.ibb.co/6PrR2kk/Welcome-Holidays-offer.png">
+                            </div>
+
+                            <div class="tilecomponent2">
+                                    <p>For Your 1st Holiday Booking!</p>
+                                    <div class="subheading">
+                                        <p>Up to 30% OFF</p>
+                                    </div>
+                            </div>
+
+                            <div class="tilecomponent3">
+                                  <div class="part1">
+                                    <span>T&C's Apply &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                  </div>
+
+                                  <div class="part2">
+                                    <span>Code:WELCOMEMMT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                  </div>
+
+                                  <div class="part3">
+                                    <a href="#">VIEW DETAILS</a>
+                                  </div>
+                            </div>
+                    </div>
+
+                    <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                          <img src="https://i.ibb.co/zP367dV/Welcome-Bus-offer.png">
+                        </div>
+
+                        <div class="tilecomponent2">
+                                <p>For Your First Bus Booking!</p>
+                                <div class="subheading">
+                                    <p>Up to 100 OFF*</p>
+                                </div>
+                        </div>
+
+                        <div class="tilecomponent3">
+                              <div class="part1">
+                                <span>T&C's Apply &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              </div>
+
+                              <div class="part2">
+                                <span>Code:WELCOMEMMT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              </div>
+
+                              <div class="part3">
+                                <a href="#">VIEW DETAILS</a>
+                              </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                          <img src="https://i.ibb.co/31KHrsP/Welcome-Cab-offer.png">
+                        </div>
+
+                        <div class="tilecomponent2">
+                                <p>For Your 1st Cab Booking!</p>
+                                <div class="subheading">
+                                    <p>Up to 200 OFF*</p>
+                                </div>
+                        </div>
+
+                        <div class="tilecomponent3">
+                              <div class="part1">
+                                <span>T&C's Apply &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              </div>
+
+                              <div class="part2">
+                                <span>Code:WELCOMEMMT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              </div>
+
+                              <div class="part3">
+                                <a href="#">VIEW DETAILS</a>
+                              </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                          <img src="https://i.ibb.co/1fk8SZs/Welcome-Offer.png">
+                        </div>
+
+                    <div class="tilecomponent2">
+                            <p>A Welcome Surprise For You!</p>
+                            <div class="subheading">
+                                <p>Up to 30% OFF* on your first booking!</p>
+                            </div>
+                    </div>
+
+                    <div class="tilecomponent3">
+                          <div class="part1">
+                            <span>T&C's Apply &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                          </div>
+
+                          <div class="part2">
+                            <span>Code:WELCOMEMMT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                          </div>
+
+                          <div class="part3">
+                            <a href="#">VIEW DETAILS</a>
+                          </div>
+                    </div>
+                  
+                  </div>
+                    
+
+                </div>
+              
+                
+
+              <div id="extraspace"></div>
+          
+              </div>
+
+            
+
+
+              
+
+            <div id="banners">
+                  <div class="AdditionalInfo">
+                        <div id="TarvelGuidelines" class="DisplayInfo">
+                              <div id="image">
+                                    <img src="https://i.ibb.co/kqrtkgx/Vande-Flight-10072020.png" alt="flight">
+                              </div>
+                              <div id="info1">
+                                    <p>Planning to book an International flight?</p>
+                              </div>
+                              <div id="info2">
+                                    <a href="#">Check Travel Guidelines</a>
+                              </div>
+                              
+                        </div>
+                        <div id="ChangeLanguage" class="DisplayInfo">
+                            <div id="image">
+                              <img src="https://i.ibb.co/9264SFG/language1-2x-20210901.png" alt="language">
+                            </div>
+                            <div id="info1">
+                                <p>We are now available in Hindi</p>
+                            </div>
+                            <div id="info2">
+                                <a href="#">Change Language</a>
+                            </div>
+                        </div>
+
+                        <div id="KnowMore" class="DisplayInfo">
+                            <div id="image">
+                              <img src="https://i.ibb.co/h8Y2MNt/web-check-in-116x116-23062020.png" alt="webinfo">
+                            </div>
+                        <div id="info1">
+                            <p>Complete your we check-in on MakeMyTrip in easy steps.</p>
+                        </div>
+                        <div id="info2">
+                            <a href="#">Know More</a>
+                        </div>
+                      </div>
+
+                  </div>
+            </div>
+            
+            <div id="appdownload">
+                    <div id="appinfo">
+                      <p>Download App Now!</p>
+                          <div id="appinfoheader">
+                            <p>Use code WELCOMEMMT and get upto Rs 1200 off on your first domestic flight booking</p>
+                          </div>
+                    </div>
+                    
+                    <div id="playstore">
+                      <img src="https://i.ibb.co/gWQQH5f/googleplaystore.png" alt="playstore">
+                    </div>
+
+                    <div id="appstore">
+                      <img src="https://i.ibb.co/wp7JhRb/appstore.png" alt="appstore">
+                    </div>
+
+                    <div id="qrcode">
+                      <img src="https://i.ibb.co/rZJZGWM/QRCode-DT-QR-code.png" alt="qrcode">
+                    </div>
+            </div>
+            
+            <div class="FlightsInfo">
+                <div class="flightinfocontainer">
+                  <div class="container1">
+                      <img src="https://i.ibb.co/vJmwWmB/chennaiflight.png" alt="Chennai">
+                  </div>
+                  <div class="container2">
+                    <p>Chennai Flights</p>
+                        <div class="container2.1">
+                            <p>Via - Delhi, Mumbai, Coimbatore, Madurai</p>
+                        </div>
+                  </div>
+                </div>
+
+                <div class="flightinfocontainer">
+                  <div class="container1">
+                    <img src="https://i.ibb.co/M6WGzJt/Goaflight.png" alt="Goa">
+                  </div>
+                  <div class="container2">
+                    <p>Goa Flights</p>
+                      <div class="container2.1">
+                          <p>Via - Delhi , Mumbai, Bangalore, Ahmedabad</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="flightinfocontainer">
+                  <div class="container1">
+                    <img src="https://i.ibb.co/2yhwgjx/MumbaiDT.png" alt="Mumbai">
+                  </div>
+                  <div class="container2">
+                    <p>Mumbai Flights</p>
+                      <div class="container2.1">
+                          <p>Via - Delhi, Bangalore, Chennai, Ahmedabad</p>
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="flightinfocontainer">
+                  <div class="container1">
+                    <img src="https://i.ibb.co/SRGzB0Y/Hyderabad.png" alt="Hyderabad">
+                  </div>
+                  <div class="container2">
+                    <p>Hyderabad Flights</p>
+                      <div class="container2.1">
+                          <p>Via - Chennai, Mumbai, Bangalore, Delhi</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="flightinfocontainer">
+                  <div class="container1">
+                    <img src="https://i.ibb.co/jRCJp5r/DelhiDT.png" alt="Delhi">
+                  </div>
+                  <div class="container2">
+                    <p>Delhi Flights</p>
+                      <div class="container2.1">
+                          <p>Via - Mumbai, Pune, Bangalore, Chennai</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="flightinfocontainer">
+                  <div class="container1">
+                    <img src="https://i.ibb.co/y4wCyWt/PuneDT.png" alt="Pune">
+                  </div>
+                  <div class="container2">
+                    <p>Pune Flights</p>
+                      <div class="container2.1">
+                          <p>Via - Delhi, Bangalore, Chennai, Ahmedabad</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="flightinfocontainer">
+                  <div class="container1">
+                    <img src="https://i.ibb.co/qRRhNMy/kolkata.png" alt="Kolkata">
+                  </div>
+                  <div class="container2">
+                    <p>Kolkata Flights</p>
+                      <div class="container2.1">
+                          <p>Via - Delhi, Mumbai, Bangalore, Pune</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="flightinfocontainer">
+                  <div class="container1">
+                    <img src="https://i.ibb.co/3TBL9w4/Bangalore-DT.png" alt="Bangalore">
+                  </div>
+                  <div class="container2">
+                    <p>Bangalore Flights</p>
+                      <div class="container2.1">
+                          <p>Via - Delhi, Pune, Mumbai, Kolkata</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="flightinfocontainer">
+                  <div class="container1">
+                    <img src="https://i.ibb.co/QrTPxFF/JaipurDT.png" alt="Jaipur">
+                  </div>
+                  <div class="container2">
+                    <p>Jaipur Flights</p>
+                      <div class="container2.1">
+                          <p>Via - Mumbai, Delhi, Pune, Bangalore</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="QA">
+
+              <div class="part1">
+                    <div class="part1.1">
+                        <p class="Q">Q - How do I make a flight booking on MakeMyTrip?</p>
+                        <p>A: You can book a flight on MakeMyTrip in five easy steps: Head over to the MakeMyTrip flight booking page, Enter your departure and arrival destinations, Select your air travel dates, Choose from our wide range of cheap flights based on your airfare preferences, Click on ‘Book Now’ and your air flight booking is done. Alternatively, you can also use the MakeMyTrip app for your flight ticket booking. Download the MakeMyTrip app, Put in the details i.e. date of journey, departure and arrival destinations, travel class of your choice, Select on your best comfortable option and click on 'Book Now'.</p>
+                    </div>
+                    <div class="part1.2">
+                      <p class="Q">Q - Can I avail domestic flight offers on MakeMyTrip?</p>
+                      <p>A: Of course, you can. While making domestic flight bookings, you can avail any special offer that is active at that time. In accordance with the offer selected, a listing of eligible cheapest flights would show up on your screen. You can then apply the price filter and click on the downwards arrow, following which budget-friendly flights would start showing up in ascending order from the top (lowest price on top).</p>
+
+                    </div>
+
+              </div>
+
+              <div class="part2">
+                    <div class="part2.1">
+                        <p class="Q">Q - How can I avail budget air tickets on MakeMyTrip?</p>
+                        <p>A: It’s super-easy to avail budget airfare while booking your cheap flight tickets on MakeMyTrip. Just select the ‘Price’ filter once the available flight options are displayed and adjust according to your convenience. On the MakeMyTrip app, you can select the downward arrow, which will show the lowest airfare at the top and continue downward in ascending order.</p>
+                    </div>
+                    <div class="part2.2">
+                        <p class="Q">Q - Why could I not avail the flight booking offers at the time of checkout?</p>
+                        <p>A: MakeMyTrip makes use of a world-class real-time reservation database to list airfare and availability. As dynamic changes in airfare take place, or the available flight tickets sell out, the database reflects the changes in real-time. Hence, we suggest, you double-check online flight booking prices when purchasing flight tickets, as the airfare might have been dynamically updated since you first selected the air travel dates or planned your itinerary.</p>
+
+                    </div>
+            </div>
+             
+           
+              <footer>
+                <div id="sociallinks">
+                  <a class="social" href="https://twitter.com/makemytrip/"><img src="https://i.ibb.co/Pr741jj/twitter.png" alt="twitter"></a>
+                  <a class="social"href="https://www.facebook.com/makemytrip/"><img src="https://i.ibb.co/FW1sNsF/facebooklogo.png" alt="facebook"></a>
+                </div>
+                <p id="p1">© 2023 MAKEMYTRIP PVT. LTD.</p>
+                <p>Country India USA UAE</p>
+
+              </footer>
+       </div>
+      </div>
+                <div id="couponcode">
+                    <div id="coupon">
+                      <button onClick="closeCoupon()">&times;</button>
+                    </div>
+                    <script>
+                      window.onload= loadCoupon();
+                    </script>
+                </div>         
+            
+    </body>
+</html>
